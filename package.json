@@ -1,0 +1,22 @@
+{
+  "name": "html-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "postinstall": "patch-package"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "execa": "^8.0.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "fs-extra": "^11.2.0",
+    "patch-package": "^8.0.0"
+  }
+}
